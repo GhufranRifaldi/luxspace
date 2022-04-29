@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './component/Header.js';
 import Hero from './component/Hero.js';
+import Browse from './component/Browse';
+import Arrived from './component/Arrived';
 
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
         <div>
         <Header />
         <Hero />
+        <Browse />
+        <Arrived />
         </div>
 
     );
