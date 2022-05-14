@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./tailwind.css";
 import App from "./App";
+import * as ServiceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -10,4 +11,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+ServiceWorkerRegistration.register();
 reportWebVitals();

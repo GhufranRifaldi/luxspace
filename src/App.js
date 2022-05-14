@@ -3,6 +3,9 @@ import Header from './component/Header.js';
 import Hero from './component/Hero.js';
 import Browse from './component/Browse';
 import Arrived from './component/Arrived';
+import Clients from './component/Clients';
+import AssideMenu from './component/AssideMenu';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -12,6 +15,9 @@ function App() {
         <Hero />
         <Browse />
         <Arrived />
+        <Clients />
+        <AssideMenu />
+        <Footer />
         </div>
 
     );
