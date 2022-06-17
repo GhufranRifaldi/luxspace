@@ -4,4 +4,10 @@ module.exports = {
         extend: {},
     },
     plugins: [],
+    fontFamily:{
+        sans:[
+            '"Josefin Sans"'
+        ],
+    }
+
 }

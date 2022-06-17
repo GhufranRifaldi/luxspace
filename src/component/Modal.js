@@ -1,4 +1,4 @@
-
+import React from 'react';
 function Modal({handleShowModal}){
     return(
         <div className="fixed inset-0 z-40 flex items-center justify-center w-full min-h-screen" onClick={handleShowModal}>
